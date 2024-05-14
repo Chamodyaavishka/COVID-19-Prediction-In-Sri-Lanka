@@ -1,0 +1,24 @@
+Objective:
+This project aims to analyze the trend of COVID-19 cases over time and predict future case numbers using statistical modeling. The focus is on the progression of the pandemic within a specific region (likely Sri Lanka, as suggested by the dataset title).
+
+Data and Analysis:
+
+The dataset titled COVID-19 SL 03-11 to 03-24.csv contains daily cumulative counts of COVID-19 cases.
+The data is processed and visualized to show the number of COVID-19 cases from March 11th to March 24th.
+Initial data visualization includes plotting the actual cumulative case counts over this period.
+Model Development:
+
+A polynomial regression model is utilized to fit the existing data points, allowing for the prediction of future case trends based on the established pattern.
+The model is trained on the data from March 11th to March 24th, and predictions are made for subsequent days.
+Predictions:
+
+The predictions are visualized alongside the actual data to compare the model's performance.
+Future case numbers are forecasted, extending beyond the last date of actual data, providing insights into potential case developments if current trends continue.
+Tools and Technologies:
+
+Python programming language, primarily using libraries such as NumPy for data manipulation, Pandas for data handling, and Matplotlib for data visualization.
+Scikit-learn for implementing the polynomial regression model.
+Outcome:
+
+The model provides a visual representation of the expected versus actual case numbers, serving as a tool for understanding and projecting the spread of the virus.
+Such predictions can be instrumental for public health planning and response strategies.
